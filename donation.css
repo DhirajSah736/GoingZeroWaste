@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+.donate{
+    background-image: url("/img/food-donate-image.jpg");
+    background-size: cover;
+    height:90vh;
+}
+.donate-cont{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.end{
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+.end-para{
+    padding: 0px 459px;
+    font-size: 28px;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+}
+.top{
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+}
+.line{
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    color:white;
+    padding-top:92px;
+}
+.line h3{
+    font-style: oblique;
+    font-family: 'Inconsolata', monospace;
+}
+.line p{
+    padding-left: 470px;
+    padding-top: 16px;
+    font-family: cursive;
+}

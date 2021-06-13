@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    border:0px solid black;
+    /* border-radius: 20px; */
+    display: flex;
+    padding: 35px 0px;
+    background-color:#eef1f5a9;
+}
+.image{
+    width:200px;
+    height:212px;
+    border:0px solid;
+    border-radius: 50%;
+    /* box-shadow: 5px 5px 2px 2px rgba(59, 57, 57, 0.712); */
+}
+.sub{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    display: block;
+    padding: 0px 50px;
+}
+.initial{
+    background-image:url("/img/about.jpg");
+    /* background-blend-mode:darken; */
+    background-size: cover;
+    height:85vh;
+}
+.head{
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 14px;
+    color: #fff;
+    line-height: 1.1;
+    text-transform: capitalize;
+    text-align:center;
+    font-family:'Montserrat', sans-serif;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 95px;
+    animation-delay: 2s;
+}
+.initial p{
+    color: white;
+    padding: 0px 297px;
+    font-size: 25px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top:15px;
+}
+.initial h2{
+    color: white;
+    padding: 0px 297px;
+    font-size: 35px;
+    font-family:'Montserrat', sans-serif;
+}
+.down-sec{
+    display:flex;
+    padding: 50px 86px;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #eef1f5a9;
+}
+.team{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    background-color: #eef1f5a9;
+    padding: 64px 0px;
+}
+.team h1{
+    font-size: 35px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:800;
+    color:rgba(216, 98, 77, 0.767);
+}
+.team .magic{
+    font-size: 19px;
+}
+.team .individual{
+    padding-top: 25px;
+    font-size: 30px;
+}
+.main .sub p{
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    padding-top:10px;
+}
+.down-sec .sub p{
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    padding-top:10px;
+}
+.main .sub h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(64, 168, 168);
+    font-weight:500;
+}
+.down-sec .sub h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(64, 168, 168);
+    font-weight:500;
+}

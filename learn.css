@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    margin:0px 200px;
+    background-color:  white;
+}
+.heading{
+    text-align: center;
+    background-color:whitesmoke;
+}
+.heading .head{
+    font-size: 40px;
+    padding-top: 26px;
+    font-family: 'Merienda', cursive;
+}
+.heading .sub{
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: expanded;
+    
+}
+.heading .name{
+    text-align: right;
+    padding-right: 100px;
+    font-size: 34px;
+}
+.content{
+    padding-top:10px;
+    background-color: white;
+    padding:0px 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size:25px;
+    padding-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:whitesmoke;
+}
+.content .para{
+    padding:13px 10px;
+}
+.content .para #last{
+    padding: 13px 0px 29px 0px;
+}
